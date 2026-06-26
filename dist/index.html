@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gebyar Semangat Kemerdekaan — Game Edukasi 17 Agustus</title>
+    <style>
+      :root {
+        --merah: #d12027;
+        --putih: #fdf6e3;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #1c1c1c;
+        font-family: 'Trebuchet MS', system-ui, sans-serif;
+      }
+      #game-root {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      /* Layar muat penuh; canvas Phaser di-scale otomatis (FIT).
+         image-rendering dibiarkan default (halus) agar teks tidak blok-blok;
+         sprite pixel-art tetap tajam lewat filter NEAREST per-tekstur. */
+    </style>
+    <script type="module" crossorigin src="./assets/index-Cm8yzNBZ.js"></script>
+  </head>
+  <body>
+    <div id="game-root"></div>
+  </body>
+</html>
